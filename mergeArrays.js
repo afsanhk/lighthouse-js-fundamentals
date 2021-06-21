@@ -1,4 +1,4 @@
-function merge (array1, array2){
+function merge(array1, array2) {
   
   // Creating a single merged array
 
@@ -9,8 +9,8 @@ function merge (array1, array2){
   // Sorting through the merged array
 
   let mergedArray = array1;
-  for (let j = 0; j < mergedArray.length; j++){
-    for (let k = j + 1; k < mergedArray.length; k++){
+  for (let j = 0; j < mergedArray.length; j++) {
+    for (let k = j + 1; k < mergedArray.length; k++) {
       if (mergedArray[j] > mergedArray[k]) {
         let tempStoreHigh = mergedArray[j];
         let tempStoreLow = mergedArray[k];

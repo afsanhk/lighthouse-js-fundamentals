@@ -1,11 +1,11 @@
 function lastIndexOf(array,number) {
   
-  let indexStore = []; 
+  let indexStore = [];
   let lengthCompare = [];
-  for (let i = 0; i < array.length; i++){
+  for (let i = 0; i < array.length; i++) {
     if (array[i] - number === 0) {
       indexStore.push(i);
-    } else if (array [i] - number !== 0){
+    } else if (array [i] - number !== 0) {
       lengthCompare.push(i);
     }
   }
@@ -24,7 +24,7 @@ console.log(lastIndexOf([], 3), "=?", -1);
 
 // QUICKER WAY
 
-/* 
+/*
 
 const lastIndexOf = (arr, num) => {
   for (let i = arr.length; i >= 0; i--) {

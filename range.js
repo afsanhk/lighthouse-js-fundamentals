@@ -1,6 +1,6 @@
-function range (start, end, step){
+function range(start, end, step) {
   let output = [];
-  if (start === undefined || end === undefined || step === undefined){
+  if (start === undefined || end === undefined || step === undefined) {
     return [];
   } else if (start > end) {
     return [];
@@ -8,7 +8,7 @@ function range (start, end, step){
     return [];
   } else {
     let n = start;
-    for (let i = n; i <= end; i = i + step){
+    for (let i = n; i <= end; i = i + step) {
       console.log(i);
       output.push(i);
     }

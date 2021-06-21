@@ -1,4 +1,4 @@
-function calculateRectangleArea (length, width){
+function calculateRectangleArea(length, width) {
   let areaRect = '';
   if (length < 0 || width < 0) {
     return undefined;
@@ -8,17 +8,17 @@ function calculateRectangleArea (length, width){
   }
 }
 
-function calculateTriangleArea (base, height){
+function calculateTriangleArea(base, height) {
   let areaTri = '';
   if (base < 0 || height < 0) {
     return undefined;
-  } else {  
+  } else {
     areaTri = 0.5 * base * height;
     return areaTri;
-  }  
+  }
 }
 
-function calculateCircleArea (radius){
+function calculateCircleArea(radius) {
   let areaCir = '';
   if (radius < 0) {
     return undefined;

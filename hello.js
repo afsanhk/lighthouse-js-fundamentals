@@ -25,7 +25,7 @@ sayHello("Ferdinand");
 /* const sayHelloToConsole  = function (name) {
   console.log("Hello, " + name);
 }
-sayHelloToConsole('John'); 
+sayHelloToConsole('John');
 */
 
 

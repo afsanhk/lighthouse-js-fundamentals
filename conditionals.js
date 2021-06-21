@@ -1,6 +1,6 @@
 // If exercises
 
-/* #1 
+/* #1
 
 const raining = true;
 const cold = false;

@@ -1,4 +1,4 @@
-function howManyHundreds(num){
+function howManyHundreds(num) {
   let hundreds = (num - (num % 100)) / 100;
   return hundreds;
 }

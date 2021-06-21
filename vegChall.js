@@ -1,19 +1,19 @@
 
-const judgeVegetable = function (vegetables, metric) {
+const judgeVegetable = function(vegetables, metric) {
 
   let indexWin = 0;
   let max = 0;
 
-  for (let i = 0; i < vegetables.length; i++){
+  for (let i = 0; i < vegetables.length; i++) {
     if (vegetables[i][metric] > max) {
-      max = vegetables[i][metric];    
+      max = vegetables[i][metric];
       indexWin = i;
     }
   }
 
   return vegetables[indexWin].submitter;
 
-}
+};
 
 
 
@@ -38,9 +38,9 @@ const vegetables = [
     redness: 4,
     plumpness: 3
   }
-]
+];
 
-const metric = 'plumpness'
+const metric = 'plumpness';
 
-console.log(judgeVegetable(vegetables, metric))
+console.log(judgeVegetable(vegetables, metric));
 
